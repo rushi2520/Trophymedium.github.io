@@ -1,0 +1,33 @@
+@media screen and (max-width:1500px) {
+    .btn-row ul li a {
+        font-size: 10px;
+        padding: 6px 4px 6px;
+    }
+}
+
+@media screen and (max-width:1092px) {
+    .upside {
+        flex-direction: column;
+    }
+    .middle-right {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:973px) {
+    .imgs img {
+        width: 65px;
+    }
+    .middle-content {
+        width: 80%;
+    }
+    .right-cotent {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .imgs img {
+        width: 35px;
+    }
+}

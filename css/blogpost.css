@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* margin: 25px; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nav-side {
+    padding: px;
+    overflow-x: hidden;
+    margin: 0;
+    text-align: center;
+    width: 7vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.imgs img {
+    width: 100px;
+}
+
+.nav-side ul {
+    margin-top: 55px;
+}
+
+.nav-side ul li {
+    padding-bottom: 35px;
+    list-style: none;
+}
+
+.middle-content {
+    margin: 35px 180px;
+    text-align: center;
+    width: 80vw;
+    color: black;
+}
+
+.upside {
+    justify-content: space-between;
+    display: flex;
+}
+
+.middle-left {
+    display: flex;
+    fill: inherit;
+    line-height: 24px;
+    letter-spacing: inherit;
+}
+
+.middle-left img {
+    width: 52px;
+    border-radius: 30px;
+}
+
+.middle-left a {
+    font-weight: 400;
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+.middle-left svg {}
+
+.block {
+    width: 150px;
+    display: block;
+    flex-direction: row;
+}
+
+.block a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.block span {
+    /* font-weight: 100; */
+    font-size: 15px;
+    font-family: var(--font19);
+}
+
+.blogcotent {
+    margin-top: 25px;
+}
+
+.blogcotent a {
+    font-family: var(--font1);
+    margin-left: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.blogcotent p {
+    font-family: var(--font8);
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.dis {
+    display: flex;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.nav-center ul li a {
+    font-size: 20px;
+    color: rgb(34, 174, 34);
+}
+
+.nav-center {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.right-cotent {
+    height: 100%;
+    width: 35vw;
+    position: relative;
+    display: inline-block;
+}
+
+.right-cotent a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.right-cotent p {
+    font-family: var(--font19);
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.right-cotent input {
+    padding: 4px 2px 4px 121px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.right-cotent button {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+    padding: 6px 15px 4px 15px;
+    font-size: 18px;
+    background-color: green;
+}
+
+.right-cotent button:hover {
+    background-color: #fff;
+}
+
+.follow {
+    display: block;
+    flex-direction: row;
+}
+
+.follow img {
+    border-radius: 37px;
+    margin-top: 90px;
+    width: 75px;
+}
+
+.sugge-article {
+    margin: 10px 0px;
+    display: flex;
+}
+
+.sugge-article img {
+    width: 150px;
+}
+
+.suggestion h3 {
+    margin: 15px;
+}
+
+.sugge-title-left {
+    display: flex;
+}
+
+.sugge-title-left span {
+    font-size: 20px;
+}
+
+.sugge-title {
+    margin-right: 10px;
+}
+
+.sugge-title img {
+    margin-right: 10px;
+    width: 45px;
+    border-radius: 25px;
+}
+
+.suggestion-more {
+    display: flex;
+}
+
+.suggestion-more img {
+    margin: 25px;
+    width: 40px;
+}

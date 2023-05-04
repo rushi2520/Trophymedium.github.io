@@ -1,0 +1,129 @@
+.box {
+    height: 20%;
+    /* background-color: aquamarine; */
+}
+
+.box p {
+    font-size: 80px;
+    margin: 25px;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 80px;
+    margin: 25px;
+    text-align: center;
+}
+
+.box div p {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+}
+
+.box div {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.ourwriters {
+    justify-content: space-between;
+    /* display: flex; */
+    /* width: 100%;
+    height: auto; */
+}
+
+.ourwriters div {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.ourwriters div a {
+    margin: 25px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.writer-name {
+    display: block;
+    padding-right: 0.5vw;
+    width: 33%;
+    height: 100%;
+    padding-right: 1vw;
+    padding-left: 1vw
+}
+
+.blog div {
+    justify-content: space-between;
+    display: block;
+    flex-direction: row;
+}
+
+.blog div a img {
+    border-radius: 18px;
+}
+
+.blog div a span {
+    margin: 25px;
+    text-align: center;
+}
+
+
+/* .box span {
+    text-align: center;
+    font-size: 15px;
+} */
+
+.ourbrife {
+    background-color: black;
+    justify-content: space-between;
+    color: aliceblue;
+    display: flex;
+}
+
+.brife-left {
+    margin: 25px;
+    width: 50%;
+}
+
+.brife-left p {
+    font-size: 25px;
+}
+
+.brife-left span {
+    color: aliceblue;
+    background-color: black;
+    font-size: 100px;
+}
+
+.vr {
+    border-left: 1px solid rgb(241, 235, 235);
+    height: 409px;
+}
+
+
+/* .brife-right {
+    width: 50%;
+} */
+
+.brife-right img {
+    border: 1px solid fff;
+    margin: 52px 135px;
+    width: 450px;
+    height: 300px;
+}

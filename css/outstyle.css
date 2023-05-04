@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Amatic+SC&family=Bebas+Neue&family=Caveat&family=Cormorant+Garamond:ital,wght@1,300&family=Gloria+Hallelujah&family=Kdam+Thmor+Pro&family=League+Gothic&family=Lobster&family=Lobster+Two&family=Nuosu+SIL&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100&family=Roboto:wght@100&family=Satisfy&family=Stick+No+Bills:wght@200&family=Titillium+Web:wght@200&display=swap');
+:root {
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'Caveat', cursive;
+    --font3: 'Cormorant Garamond', serif;
+    --font4: 'Kdam Thmor Pro', sans-serif;
+    --font5: 'League Gothic', sans-serif;
+    --font6: 'Lobster', cursive;
+    --font7: 'Lobster Two', cursive;
+    --font8: 'Nuosu SIL', serif;
+    --font9: 'Pacifico', cursive;
+    --font10: 'Patrick Hand', cursive;
+    --font11: 'Titillium Web', sans-serif;
+    --font12: 'Roboto Mono', monospace;
+    --font13: 'Gloria Hallelujah', cursive;
+    --font14: 'Roboto', sans-serif;
+    --font15: 'Cormorant Garamond', serif;
+    --font16: 'Permanent Marker', cursive;
+    --font17: 'Advent Pro', sans-serif;
+    --font18: 'Amatic SC', cursive;
+    --font: 'Stick No Bills', sans-serif;
+    --font19: 'Roboto Slab', serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.font4 {
+    font-family: var(--font4);
+}
+
+.font16 {
+    font-family: var(--font16);
+}
+
+.font4 {
+    font-family: var(--font4);
+}
+
+.font5 {
+    font-family: var(--font5);
+}
+
+.font6 {
+    font-family: var(--font6);
+}
+
+.font7 {
+    font-family: var(--font7);
+}
+
+.font8 {
+    font-family: var(--font8);
+}
+
+.font9 {
+    font-family: var(--font9);
+}
+
+.font10 {
+    font-family: var(--font10);
+}
+
+.font11 {
+    font-family: var(--font11);
+}
+
+.font12 {
+    font-family: var(--font12);
+}
+
+.font13 {
+    font-family: var(--font13);
+}
+
+.font14 {
+    font-family: var(--font14);
+}
+
+.font15 {
+    font-family: var(--font15);
+}
+
+#margin {
+    margin-top: 25px;
+}
+
+.margin {
+    margin-left: 25px;
+}
+
+.bye {
+    width: 100px;
+}
